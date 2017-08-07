@@ -11,10 +11,19 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-
+div {
+  border: 4px solid gold;
+  padding: 3rem;
+  box-shadow: 0 0 4px goldenrod;
+}
 div > h1, div > h2 {
   text-align: center;
   text-shadow: 0 0 4px goldenrod;
+}
+@media screen and (max-device-width: 480px) {
+  body {
+    font-size: 200%;
+  }
 }
 </style>
 </head>

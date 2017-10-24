@@ -1,0 +1,38 @@
+{
+  "name": "hoelbotten",
+  "author": "Miro Nieminen <miro.nieminen@futurice.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "next-routes": "^1.0.40",
+    "prop-types": "^15.5.10",
+    "query-string": "^5.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "eslint *.js **/*.js"
+  },
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilkka/hoelbettin.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilkka/hoelbettin.com/issues"
+  },
+  "homepage": "https://github.com/ilkka/hoelbettin.com#readme"
+}

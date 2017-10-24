@@ -1,0 +1,18 @@
+/.next
+/static/css
+
+# Logs
+logs
+*.log
+
+node_modules
+
+# Configs
+.env
+.env-test
+
+# IDE/editor stuff
+*.sublime-*
+
+.DS_Store
+*.pdf

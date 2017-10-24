@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Lander has hero image 1`] = `
+<div>
+  <div>
+    <div
+      className="hero-image"
+    >
+      <img
+        alt="Höelbettin OG"
+        className="lander__HeroImage-y7a1d1-0 jHenZq"
+        src="/static/logo.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
